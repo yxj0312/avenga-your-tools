@@ -13,3 +13,8 @@ html {
     font-family: $ff-sans-serif-1;
     // color: $neutral-400;
 }
+
+html,
+body {
+    height: 100%;
+}

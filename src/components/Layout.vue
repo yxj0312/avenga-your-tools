@@ -2,9 +2,11 @@
     <!-- Eigentlich ein Layout Komponent hier ist überflüssig, aber bei praktische Arbeit ist ein Layout 'good practice' -->
     <div class="layout">
         <layout-header></layout-header>
-        <main>
-          <car-categories></car-categories>
-          <car-descriptions></car-descriptions>
+        <main class="main">
+          <div class="container">
+            <car-categories></car-categories>
+            <car-descriptions></car-descriptions>
+          </div>
         </main>
     </div>
 </template>
