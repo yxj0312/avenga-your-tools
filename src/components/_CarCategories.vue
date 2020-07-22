@@ -9,6 +9,8 @@
         <car-category>
             <template v-slot:name>Kraftstoffart</template>
             <car-tag>Diesel</car-tag>
+            <car-tag>Benzin</car-tag>
+            <car-tag>Elektro</car-tag>
         </car-category>
     </div>
 </template>
