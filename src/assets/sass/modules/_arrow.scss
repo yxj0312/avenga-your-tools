@@ -1,0 +1,10 @@
+.arrow {
+    transform: rotate(0deg);
+    transition: transform 0.5s linear;
+    cursor: pointer;
+
+    &--open {
+       transform: rotate(180deg);
+       transition: transform 0.5s linear; 
+    }
+}

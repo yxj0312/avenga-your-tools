@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <div class="description">
+        <div class="description__title">
+            Fahrzeugdetails
+        </div>
         <car-description>
             <template v-slot:title>Lorem Ipsum 1</template>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

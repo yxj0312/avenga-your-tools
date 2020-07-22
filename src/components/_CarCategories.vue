@@ -12,6 +12,14 @@
             <car-tag>Benzin</car-tag>
             <car-tag>Elektro</car-tag>
         </car-category>
+        <car-category>
+            <template v-slot:name>Ausstattung</template>
+            <car-tag>Sitzheizung</car-tag>
+            <car-tag>Regemsensor</car-tag>
+            <car-tag>Schibedach</car-tag>
+            <car-tag>Tempomat</car-tag>
+            <car-tag>Standheizung</car-tag>
+        </car-category>
     </div>
 </template>
 

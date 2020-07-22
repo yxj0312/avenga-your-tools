@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <div>
+    <div class="category">
+        <div class="category__name">
             <slot name="name"></slot>
         </div>
-        <div>
+        <div class="category__tag">
             <slot></slot>
         </div>
     </div>

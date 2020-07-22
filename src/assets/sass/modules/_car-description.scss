@@ -1,0 +1,20 @@
+.car-description {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #666666;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0 0 10px 0;
+
+    &__title {
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0 15px 0;
+        font-weight: 600;
+    }
+
+    &__text {
+        letter-spacing: 0;        
+    }
+}
