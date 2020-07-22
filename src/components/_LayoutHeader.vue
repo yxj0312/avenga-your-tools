@@ -1,6 +1,10 @@
 <template>
-    <header>
-        <img src="" alt="">LOGO
+    <header class="header">
+        <div class="header-logo">
+          <div class="header-logo__container">
+            Logo
+          </div>
+        </div>
         <header-icon>
           <template v-slot:icon>
             <div>

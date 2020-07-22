@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="header-icon">
         <div>
             <div>
                 <slot name="icon"></slot>
