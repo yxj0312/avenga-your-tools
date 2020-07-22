@@ -1,5 +1,5 @@
 <template>
-    <div class="car-tag" @click="select" :class="{ 'car-tag--selected': clicked,}">
+    <div class="car-tag" @click="select" :class="{ 'car-tag--selected': clicked}">
         <slot></slot>
     </div>
 </template>
@@ -14,6 +14,7 @@ export default {
   methods: {
     select () {
       this.clicked = !this.clicked
+      this.$parent.$emit('change', true)
     }
   }
 }
