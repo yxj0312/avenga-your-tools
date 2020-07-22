@@ -1,0 +1,15 @@
+// ==========================================================================
+// base>base
+//
+// This file should contain all base elements in their standard styling
+// E.g. body, h1-h6, table, a, form, input ...
+//
+// Note: Should NOT contain classes or ids
+// ==========================================================================
+
+html {
+    box-sizing: border-box;
+    // font-size: $font-size-normal;
+    font-family: $ff-sans-serif-1;
+    // color: $neutral-400;
+}
